@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://shahareharrahamananik.netlify.app/sitemap.xml 
