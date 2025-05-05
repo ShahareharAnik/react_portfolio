@@ -33,16 +33,19 @@ const Contact = () => {
 
     emailjs
       .send(
-        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+        // import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
+        // import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+        'service_2qs24ds',
+        'template_p6sklp8',
         {
           from_name: form.name,
-          to_name: "Shafquat",
+          to_name: "Anik",
           from_email: form.email,
-          to_email: "shafquat.bari11@gmail.com",
+          to_email: "shahareharanik@gmail.com",
           message: form.message,
         },
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+        // import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+        'ctuMJJ-fngRSaupdZ'
       )
       .then(
         () => {
@@ -72,7 +75,7 @@ const Contact = () => {
         variants={slideIn("left", "tween", 0.2, 1)}
         className="flex-[0.75] bg-black-100 p-8 rounded-2xl"
       >
-        <p className={styles.sectionSubText}>Let's Connect 😁</p>
+        <p className={styles.sectionSubText}>Let's build something amazing together!</p>
         <h3 className={styles.sectionHeadText}>You can contact me ⬇️</h3>
 
         <form
