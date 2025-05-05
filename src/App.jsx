@@ -18,9 +18,9 @@ const App = () => {
   useEffect(() => {
     // Set up main SEO information
     updateSEO({
-      title: "Shaharehar Rahaman Anik - Software Engineer Portfolio",
+      title: "Anik | Portfolio",
       description: "Professional portfolio showcasing software development, web development, and design projects by Shaharehar Rahaman Anik.",
-      keywords: "Shaharehar Rahaman Anik, Portfolio, MERN Stack Developer, Software Engineer, Figma Designer, React, Node.js, Brain Station 23, Web Development, Frontend Developer, Backend Developer",
+      keywords: "Shaharehar Rahaman Anik, Anik, Shaharehar, Portfolio, Electrical Engineer, SQA, Quality Assurance, Software Engineer,Software Quality Assurance React, Node.js, Brain Station 23, Web Development, Frontend Developer, Backend Developer, Full Stack Developer, JavaScript Expert, Bangladesh Developer, Nitex",
     });
   }, []);
 
