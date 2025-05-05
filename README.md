@@ -1,4 +1,4 @@
-# Portfolio of Shafquat Ul Bari
+# Portfolio of Shaharehar Rahaman Anik
 
 Welcome to my portfolio! This project is a showcase of my skills and experiences as a Computer Science graduate with expertise in software engineering, machine learning, and game development. Below is a detailed breakdown of the technologies, features, and resources used in creating this portfolio.
 
