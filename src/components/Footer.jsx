@@ -32,7 +32,7 @@ const Footer = () => {
             <FontAwesomeIcon icon={faEnvelope} size="2x" />
           </a>
           <a
-            href="/ShahareharRahamanAnik4yrQA_CV.pdf"
+            href="https://shahareharrahamananik.netlify.app/ShahareharRahamanAnik4yrQA_CV.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-blue-400 flex items-center"
