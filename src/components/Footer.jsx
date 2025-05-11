@@ -35,11 +35,16 @@ const Footer = () => {
             href="https://shahareharrahamananik.netlify.app/ShahareharRahamanAnik4yrQA_CV.pdf"
             target="_blank"
             rel="noopener noreferrer"
-            download="ShahareharRahamanAnik_CV.pdf"
             className="hover:text-blue-400 flex items-center"
             onClick={(e) => {
               e.preventDefault();
-              window.open('https://shahareharrahamananik.netlify.app/ShahareharRahamanAnik4yrQA_CV.pdf', '_blank');
+              const link = document.createElement('a');
+              link.href = 'https://shahareharrahamananik.netlify.app/ShahareharRahamanAnik4yrQA_CV.pdf';
+              link.target = '_blank';
+              link.rel = 'noopener noreferrer';
+              document.body.appendChild(link);
+              link.click();
+              document.body.removeChild(link);
             }}
           >
             <FontAwesomeIcon icon={faFileDownload} size="2x" />
