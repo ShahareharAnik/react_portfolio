@@ -32,20 +32,10 @@ const Footer = () => {
             <FontAwesomeIcon icon={faEnvelope} size="2x" />
           </a>
           <a
-            href="https://shahareharrahamananik.netlify.app/ShahareharRahamanAnik4yrQA_CV.pdf"
+            href="/ShahareharRahamanAnik4yrQA_CV.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-blue-400 flex items-center"
-            onClick={(e) => {
-              e.preventDefault();
-              const link = document.createElement('a');
-              link.href = 'https://shahareharrahamananik.netlify.app/ShahareharRahamanAnik4yrQA_CV.pdf';
-              link.target = '_blank';
-              link.rel = 'noopener noreferrer';
-              document.body.appendChild(link);
-              link.click();
-              document.body.removeChild(link);
-            }}
           >
             <FontAwesomeIcon icon={faFileDownload} size="2x" />
             <span className="ml-2 text-lg">My Resume</span>
