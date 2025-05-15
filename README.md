@@ -16,7 +16,7 @@ This portfolio is designed to provide a comprehensive view of my professional wo
 
 ### Link to Portfolio
 
-[Visit My Portfolio](https://shafquatulbari.netlify.app)
+[Visit My Portfolio](https://shahareharrahamananik.netlify.app/)
 
 ## Features
 
